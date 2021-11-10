@@ -1,6 +1,6 @@
 # Documentation 
 
-Hi this is vishvajit
+Discription of the project and company 
 
 ## Data Cleaning And  Recommendationn Systen 
 
@@ -8,7 +8,7 @@ Hi this is vishvajit
 
 <p float="center">
 
- [<img src="https://givinglifetodata.com/wp-content/uploads/2018/11/logo-data-cleaning-1-300x300.png" width="170"  hspace="30" title="Data Cleaning" /><em>Data cleaning</em>](./pages/dataclean.md)
+ [<img src="./images/dataclean.png" width="170"  hspace="30" title="Data Cleaning" /><em>Data cleaning</em>](./pages/dataclean.md)
 [<img src="./images/recsys.png" width="170"  hspace="30" title="Recommender System"/><em>Recommender  System</em>](about.gitlab.com)
  
 </p>
