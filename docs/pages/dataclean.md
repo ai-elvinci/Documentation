@@ -82,8 +82,7 @@ Add the order number to article number
 
 Args:
 
->article_data(DataFrame) : Important columns ['Arikelnummer']
-
+>article_data(DataFrame) : Important columns ['Arikelnummer'] </p>
 >auftrag_nr(Dataframe): Important columns ['Artikenummer', 'Bestell Nr.' ]
 
 Returns:
@@ -103,8 +102,7 @@ Add the order number to article number
 
 Args:
 
->article_data(DataFrame) : Important columns ['Arikelnummer']
-
+>article_data(DataFrame) : Important columns ['Arikelnummer']</p>
 >auftrag_nr(Dataframe): Important columns ['Artikenummer', 'Bestell Nr.' ]
 
 Returns:
@@ -125,8 +123,7 @@ Add the order date to oder number
 
 Args:
 
->article_data(DataFrame) : Important columns ['Bestellnummer']
-
+>article_data(DataFrame) : Important columns ['Bestellnummer']</p>
 >auftrag_nr(Dataframe): Important columns ['Bestellnummer', 'Erstelldatum Bestellung' ]
 
 Returns:
@@ -146,8 +143,7 @@ Add the order date to oder number
 
 Args:
 
->article_data(DataFrame) : Important columns ['Arikelnummer']
-
+>article_data(DataFrame) : Important columns ['Arikelnummer']</p>
 >auftrag_nr(Dataframe): Important columns ['Artkelnummer', 'Erstelldatum Bestellung' ]
 
 Returns:
@@ -167,8 +163,7 @@ Add Kunden nummer to article nr (Sold articles)
 
 Args: 
 
->article_data(DataFrame) : Important columns ['Arikelnummer']
-
+>article_data(DataFrame) : Important columns ['Arikelnummer']</p>
 >auftrag_nr(Dataframe): Important columns ['Artkelnummer', 'Kunden-Nr' ]
 
 Returns:
@@ -192,8 +187,7 @@ Add Plomben nummer to article nummer
 
 Args: 
 
->article_data(DataFrame) : Important columns ['Arikelnummer']
-
+>article_data(DataFrame) : Important columns ['Arikelnummer']</p>
 >plomben_nr(Dataframe): Important columns ['Artkelnummer', 'ISBN' ]
 
 Returns:
@@ -213,8 +207,7 @@ Add Missing Plumben nummer  corrected by Boris
 
 Args: 
 
->article_data(DataFrame) : Important columns ['Arikelnummer', 'PlombenNr']
-
+>article_data(DataFrame) : Important columns ['Arikelnummer', 'PlombenNr']</p>
 >missing_plomben_nr(Dataframe): Important columns ['Artkelnummer', 'PlombenNr' ]
 
 Returns:
@@ -235,8 +228,7 @@ Add Missing Plumben nummer  corrected by Boris
 
 Args: 
 
->article_data(DataFrame) : Important columns [ 'PlombenNr']
-
+>article_data(DataFrame) : Important columns [ 'PlombenNr']</p>
 >plomben_nr_and_date(Dataframe): Important columns ['PlombenNr' ]
 
 Returns:
@@ -259,8 +251,7 @@ Add price to the Articles
 
 Args: 
 
->article_data(DataFrame) : Important columns ['Artiklenummer']
-
+>article_data(DataFrame) : Important columns ['Artiklenummer']</p>
 >price_data(Dataframe): Important columns [Artikelnummer, "Std. VK Netto"]
 
 Returns:
@@ -284,8 +275,7 @@ Mapping the grade on file exported from the JTL from the file given by Boris som
 
  Args:
 
->article_data (DataFrame) : Important columns ["Anmerkung"]
-
+>article_data (DataFrame) : Important columns ["Anmerkung"]</p>
 >grade_data (DataFrame): Important columns ["Zustand gekürzt"], ["Zustand"]
 
 Returns:
@@ -307,8 +297,7 @@ Method to correct missilabled grade from jtl export.
 
 Args:
 
->article_data(DataFrame) : Important columns [Arikelnummer]
-
+>article_data(DataFrame) : Important columns [Arikelnummer]</p>
 >misslabled_grade(Dataframe): Important columns ['Arikelnummer', 'grade5' ]
 
 Returns:
