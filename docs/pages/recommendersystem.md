@@ -38,12 +38,22 @@ The idea is basically to take a large (or potentially huge) matrix and factor it
 |:--:|
 | *Matrix Factorization* |
 
-### data training and preprocessing 
+### **Data Training and preprocessing** : rec_system/model_training
+
+rec_system/model_training Directory contains script for training  three models 
 
 
+
+* **Group Recommendation Model** : Important columns are 'kunden-nr', 'Group' 
+
+* **Brand Recommendation Model** : Important columns are 'kunden-nr', 'Hersteller'
+
+* **Grade recommendation Model** : Important columns are 'kunden-nr', 'final_grade'
+
+After training the model Save the model in .plk file.  
 
 ## Create package for the costumers
-
+  
 ## **rec_system/src**
 
 Explore the source code in following section bellow
@@ -227,6 +237,10 @@ Returns:
 # package created and saved in excel file ()
 packages_saved = assemble_package_by_costomer_list_df_reload(supply_df, package_info, group_list, cust_list)
 ~~~
+
+## **Similar Product**
+
+## **Class:** SimilarItems() 
 
 ## **main.py**
 

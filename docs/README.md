@@ -8,8 +8,8 @@ Discription of the project and company
 
 <p float="center">
 
-[<img src="./images/dataclean2.png" width="170"  hspace="20" title="Data Cleaning" /><em>Data cleaning</em>](./pages/dataclean.md)
-[<img src="./images/recsys.png" width="170"  hspace="20" title="Recommender System"/><em>Recommender  System</em>](./pages/recommendersystem.md)
+[<img src="./images/dataclean2.png" width="170"  hspace="10" title="Data Cleaning" /><em>Data cleaning</em>](./pages/dataclean.md)
+[<img src="./images/recsys.png" width="170"  hspace="10" title="Recommender System"/><em>Recommender  System</em>](./pages/recommendersystem.md)
  
 </p>
 
