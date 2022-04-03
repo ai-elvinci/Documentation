@@ -117,7 +117,7 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 
 ![Create_Package](../images/create_package.svg "package" )  
 
-<img src="../images/create_package.svg">
+<img src="../images/create_package.svg" alt="drawing" width =400 >
 
 
 
