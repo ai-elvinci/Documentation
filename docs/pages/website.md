@@ -39,7 +39,7 @@ As shown bellow
 
 Dashboard  contains all brief overview of the operation. Dashboard view contains information about total clients, total active products in warehouse, total packages created active and sold, pending orders and total order completed orders.
 
-[![Dashboard](../images/dashboard.png "DashBoard")](../images/dashboard.png)
+![Dashboard](../images/dashboard.png "DashBoard")
 
 Dashboard also gives direct access to the client, active product's and completed order functions.
 *Dashboard can be accessed by all the the user with admin panel privileges eg. sales person, warehouse Manager,and admin*
@@ -93,9 +93,9 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
   * **Not Order Nr**
 
 * **Action**
-  * **Edit** ==> <img src="../images/edit_logo.PNG" width="25" height="20"/>
-  * **Delete**  == > <img src="../images/delete_logo.PNG" width="25" height="20"/>
-  * **Product Detail** ==> <img src="../images/detail_logo.PNG" width="25" height="20"/>
+  * **Edit**  <img src="../images/edit_logo.png" width="25" height="20"/>
+  * **Delete**   <img src="../images/delete_logo.png" width="25" height="20"/>
+  * **Product Detail** <img src="../images/detail_logo.png" width="25" height="20"/>
 
 ![Products](../images/products_view_2.PNG "Product")
 
@@ -116,6 +116,8 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
   * **Problem User May face during the process**
 
 ![Create_Package](../images/create_package.svg "package" )  
+
+<img src="../images/e" width="25" height="20"/>
 
 
 
