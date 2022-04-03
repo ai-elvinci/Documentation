@@ -81,7 +81,7 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 * **Assigned product** *Blue Rectangle*
   * **Assigned**
     * **Assigned**
-    * **Package Nr** 
+    * **Package Nr**
     * **Client**
   * **Unassigned**
 
@@ -93,9 +93,9 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
   * **Not Order Nr**
 
 * **Action**
-  * **Edit**  <img src="../images/edit_logo.png" width="25" height="20"/>
-  * **Delete**   <img src="../images/delete_logo.png" width="25" height="20"/>
-  * **Product Detail** <img src="../images/detail_logo.png" width="25" height="20"/>
+  * **Edit**  ![edit](../images/edit_logo.PNG)
+  * **Delete**   ![delete](../images/delete_logo.png)
+  * **Product Detail** ![product_detail](../images/detail_logo.png)
 
 ![Products](../images/products_view_2.PNG "Product")
 
@@ -103,21 +103,19 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 
 ## **Package** (need to ask question also need to answer condition details)
 
-* Step involved in the creating package 
+* Step involved in the creating package
   * Select Warehouse
   * Select Supply Number
     * **Supply Number selection Conditions**
   * Select Client
-  * Select Percentage of grad 
+  * Select Percentage of grad
     * **Conditions**
   * Select Products
     * **Product Select Conditions**
   * Press Create Package
   * **Problem User May face during the process**
 
-![Create_Package](../images/create_package.svg "package" )  
-
-<img src="../images/create_package.svg" alt="drawing" width =400 >
+![Create_Package](../images/create_package.svg  "package"  )
 
 
 
@@ -132,9 +130,9 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
     * Add Details
 
 * **Action**
-  * **Edit** <img src="../images/edit_logo.PNG" width="25" height="20"/>
-  * **Delete** <img src="../images/delete_logo.PNG" width="25" height="20"/>
-  * **No Action** 
+  * **Edit** ![edit](../images/edit_logo.PNG)
+  * **Delete** ![delete](../images/delete_logo.png)
+  * **No Action**
 
 ![Package](../images/package_view_1.PNG "Package")
 
@@ -151,16 +149,14 @@ The Admin Panel not only helps you to manage and track all your orders but also 
   * **Approved Warehouse**
 
 * **Action**
-  * **Download Image** ==> <img src="../images/images_logo.PNG" width="75" height="20"/>
-  * **Export Excel** ==> <img src="../images/export_logo.PNG" width="25" height="20"/>
+  * **Download Image** ==> ![image](../images/images_logo.png)
+  * **Export Excel** ==> ![export_excel](../images/export_logo.png)
     * Details
-  * **Edit** ==> <img src="../images/edit_logo.PNG" width="25" height="20"/>
-  * **Revert**  ==> <img src="../images/revert_logo.PNG" width="25" height="20"/>
-    * Revert Details 
-  * **Delete** ==> <img src="../images/delete_logo.PNG" width="25" height="20"/>
-  * **Approve** ==> <img src="../images/approve_logo.PNG" width="25" height="20"/>
-    * Approve meaning 
-
+  * **Edit** ==>![edit](../images/edit_logo.PNG)
+  * **Revert**  ==> ![revert](../images/revert_logo.png)
+    * Revert Details
+  * **Delete** ==> ![delete](../images/delete_logo.png)
+  * **Approve** ==> ![delete](../images/approve_logo.png)
 
 * Also user can take action on the package such as edit the package delete the package and export the package in excel for mat for the further.
 * Status and related action
