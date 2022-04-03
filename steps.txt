@@ -1,1 +1,1 @@
-docify serve ./docs
+docsify serve ./docs
