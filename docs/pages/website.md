@@ -85,7 +85,7 @@ Client View is accessed by user with admin and Sales permission.
 ---
 ---
 
-## **Products** (cross check with talal or boris)
+## **Products**
 
 *User can easily add products just by entering Product titles, details, images.*
 You can keep a track of single as well as multiple product inventories at one time and help your customers book those products which are ready for shipment.
@@ -141,7 +141,7 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 ---
 ---
 
-## **Package** (need to ask question also need to answer condition details)
+## **Package** 
 
 * The  Procedure  to creating package, sending  package and approving package and placing the order is explained bellow with flowchart  
 
@@ -219,7 +219,7 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 ---
 ---
 
-## **Order Request** (need to ask question also need to answer condition details)
+## **Order Request** 
 
 The Admin Panel not only helps you to manage and track all your orders but also check multiple products at once.Summary of the products ordered by your customer. Admin Panel helps you to directly create your draft orders.Keep a track of abandoned orders.
 
@@ -246,11 +246,11 @@ Also user can take action on the package such as edit the package delete the pac
 
 * Following action can be  taken on the order request
   * **Download Image** ==> ![image](../images/images_logo.png) 
-  Sales person can download images of the products
+    * Sales person can download images of the products
 
   * **Export Excel** ==> ![export_excel](../images/export_logo.png) 
     * Sales person can export the order details and download the details in excel format
-  * **Edit** ==>![edit](../images/edit_logo.PNG) \
+  * **Edit** ==>![edit](../images/edit_logo.PNG)
     * Edit the package (add and remove products from the package) (same the supply number)
   * **Revert**  ==> ![revert](../images/revert_logo.png)
     * This Option will revert the package as it originally created and send it to the the customer for further steps
