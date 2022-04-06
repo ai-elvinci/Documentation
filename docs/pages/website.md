@@ -74,7 +74,7 @@ Users View can be accessed only by user with Admin permission. User will have  a
 Customer View is useful  to add  new customers and check existing customers status. As user can see bellow  User can Also take action on customer such as edit customer info and delete customer.
 Client View is accessed by user with admin and Sales permission.
 
-### **Status** 
+### **Status**
 
 * There  are two types of client status as follows  
   * **Active**
@@ -104,7 +104,7 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
     When product is not assigned to any package or not sold yet and it is available to sale. It shows unassigned in the in red rectangle.  
 
 * **Ordered Column :** (*Black Rectangle*)\
-    This colum provide information about the Assigned product is ordered or not Ordered. 
+    This colum provide information about the Assigned product is ordered or not Ordered.
   * **Ordered:**:  
     When product is ordered it shows following information in ordered column as shown in figure bellow
     * **Order** (Greed Rectangle)
@@ -112,21 +112,20 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
     * **Client** (Black rectangle)
   * **Not Ordered**
 
-    Product can be assigned and not ordered or product can be not assigned and not ordered. Please see the figure bellow 
+    Product can be assigned and not ordered or product can be not assigned and not ordered. Please see the figure bellow
 
 ### **Action**
 
 * Following action can be taken on Products
   * **Edit** ![edit](../images/edit_logo.PNG)
 
-    * Sales person can edit the product info by pressing *Edit* button (shown above) 
-    * This option will take sales person to the next view as shown bellow and you can add and change product details as shown bellow. 
-    * You can add and delete new Images of the product 
+    * Sales person can edit the product info by pressing *Edit* button (shown above)
+    * This option will take sales person to the next view as shown bellow and you can add and change product details as shown bellow.
+    * You can add and delete new Images of the product
 
     |![Edit_product](../images/product_edit_view.svg)|
-    |:-----------:| 
+    |:-----------:|
     | *Edit Product Information* |
-
 
   * **Delete :**   ![delete](../images/delete_logo.png)
     * Delete button is useful to delete product from database
@@ -135,15 +134,14 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
   * **Product Detail** ![product_detail](../images/detail_logo.png)
     * Product detail button is useful to check details of product grade, images and score for the product condition.
 
-![Products](../images/products_view_4.svg "Product") 
+![Products](../images/products_view_4.svg "Product")
 
-![Products](../images/products_view_3.PNG "Products ") 
+![Products](../images/products_view_3.PNG "Products ")
 
 ---
 ---
 
 ## **Package** (need to ask question also need to answer condition details)
-
 
 * The  Procedure  to creating package, sending  package and approving package and placing the order is explained bellow with flowchart  
 
@@ -151,20 +149,20 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 
 ### **Status**
 
-* Following Status are exist on package and there meaning 
+* Following Status are exist on package and there meaning
   * ***Pending***  
-    * *Meaning* : Package has been created by sales person and sent to the customer 
+    * *Meaning* : Package has been created by sales person and sent to the customer
     * *Action*  
       * *Action 1*: Sales person can edit the package again Add more product to the package from same supply number and add products from different supply number
-      * *Action 2*: Sale person can delete the package which is created before 
+      * *Action 2*: Sale person can delete the package which is created before
     *  
   * ***Ordered***
-    * *Meaning* : Customer has selected products from given packages and requested to place order 
+    * *Meaning* : Customer has selected products from given packages and requested to place order
     * *Action* : Once the customer requested to place the order, It is not possible to place the order  
 
 ### **Action**
 
-* Following action can be taken on the package 
+* Following action can be taken on the package
   * **Edit** ![edit](../images/edit_logo.PNG)
     * If the customer has not placed order request yet Sales person can **Edit** the package, add products from same package and add products from different supply number.
   * **Delete** ![delete](../images/delete_logo.png)
@@ -174,44 +172,41 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 
 ![Package](../images/package_view_1.PNG "Package")
 
+### **Step to Create package**
 
-### **Step to Create package** 
-
-* Following steps are required to create package 
+* Following steps are required to create package
   * **Select Warehouse :**
     * Select the warehouses from given list.
     * *Add more information about the warehouse*
   * **Select Supply Number**
-    * Select the supply number according to meeting plan 
-    * Multiple Supply can be selected. 
+    * Select the supply number according to meeting plan
+    * Multiple Supply can be selected.
     * *Supply Number selection Conditions*
   * **Select Client**
-    * Client can be selected using customer number or the Client(company name) name 
+    * Client can be selected using customer number or the Client(company name) name
   * Percentage of original price
     * Default value for the price for the product according to Product Grade is predetermine and selected.
-    * Sales person can change this value according to requirement.   
+    * Sales person can change this value according to requirement.
     * **Conditions**
   * **Select Products**
-    * All Non-set products are  by-default selected. 
+    * All Non-set products are  by-default selected.
     * Sales person need to unselect the product to remove product from package list.
     * Sales person can  filter according to Grade, Brand article number, Group and product description.
-    * Set products needs to be paired with respective product group and article number 
-    * Set products will be in two three sets(can be seen in article_nr -1, -2 or -3), once all set are joined the all the product(two or three) will show the green circle on upper right corner of the product box as show bellow. 
+    * Set products needs to be paired with respective product group and article number
+    * Set products will be in two three sets(can be seen in article_nr -1, -2 or -3), once all set are joined the all the product(two or three) will show the green circle on upper right corner of the product box as show bellow.
     * **Product Select Conditions**
 
         |![Create_Package](../images/Set_products_View2.svg "set Products" )|
         |:-----------:|
         | *Joining the Set Articles* |
 
-
   * **Press Create Package**
     * Once desired products(recommended products) added to the list user needs press create package button
-    * After pressing Create package , it needs to conform that package contains at list 80% products from supply list. 
-    * Once all the above steps are completed and requirements are satisfied package will be sent to customer 
-    * And customer will be notified (Automatically) 
+    * After pressing Create package , it needs to conform that package contains at list 80% products from supply list.
+    * Once all the above steps are completed and requirements are satisfied package will be sent to customer
+    * And customer will be notified (Automatically)
 
   * **Problem User May face during the process**
- 
 
   |![Create_Package](../images/create_package_steps.svg  "package" )|
   |:-----------:|
@@ -228,32 +223,32 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 
 The Admin Panel not only helps you to manage and track all your orders but also check multiple products at once.Summary of the products ordered by your customer. Admin Panel helps you to directly create your draft orders.Keep a track of abandoned orders.
 
-After package is sent to the customer, customer will select the products according to there requirement and request the order. 
+After package is sent to the customer, customer will select the products according to there requirement and request the order.
 
 * As show bellow user can check the status of the order ( shown in Yellow rectangle)
 
 ### **Status**
 
-* Following status and there meaning 
+* Following status and there meaning
   * **Pending :**
-    * Order request has received from customer 
+    * Order request has received from customer
     * Sales person can review the order request and take the action (Edit, Delete, Revert, Approve)
   * **Approved :**
-  Order has been approved by the sales person and System will send automatic response to client 
+  Order has been approved by the sales person and System will send automatic response to client
   * **Awaiting Approval :**
     * **meaning and Action needs to be taken**
   * **Approved Warehouse :**
-    * **Meaning and** 
+    * **Meaning and**
 
 Also user can take action on the package such as edit the package delete the package and export the package in excel for mat for the further.
 
 ### **Action**
 
 * Following action can be  taken on the order request
-  * **Download Image** ==> ![image](../images/images_logo.png) \
+  * **Download Image** ==> ![image](../images/images_logo.png) 
   Sales person can download images of the products
 
-  * **Export Excel** ==> ![export_excel](../images/export_logo.png) \
+  * **Export Excel** ==> ![export_excel](../images/export_logo.png) 
     * Sales person can export the order details and download the details in excel format
   * **Edit** ==>![edit](../images/edit_logo.PNG) \
     * Edit the package (add and remove products from the package) (same the supply number)
@@ -261,8 +256,8 @@ Also user can take action on the package such as edit the package delete the pac
     * This Option will revert the package as it originally created and send it to the the customer for further steps
   * **Delete** ==> ![delete](../images/delete_logo.png)
   * **Approve** ==> ![delete](../images/approve_logo.png)
-    * Once sales person is receive the order request(Pending). Sales person can approve the order 
-    * Once the order is approved Sales person can not make any changes in the order (no Delete, No Edit, No Revert) 
+    * Once sales person is receive the order request(Pending). Sales person can approve the order
+    * Once the order is approved Sales person can not make any changes in the order (no Delete, No Edit, No Revert)
 
 ![Order_Request](../images/order_request_view_2.PNG "Order request")
 
