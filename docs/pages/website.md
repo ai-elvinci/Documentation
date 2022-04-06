@@ -266,4 +266,6 @@ Also user can take action on the package such as edit the package delete the pac
 
 ## **Right Management**
 
+* Need to add points
+
 ![Right_Management](../images/Rights_managment_view.PNG "Order request")
