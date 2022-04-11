@@ -50,7 +50,7 @@ As shown bellow
 
 Dashboard  contains all brief overview of the operation. Dashboard view contains information about total clients, total active products in warehouse, total packages created active and sold, pending orders and total order completed orders.
 
-![Dashboard](../images/dashboard.PNG "DashBoard")
+![Dashboard](../images/dashboard.png "DashBoard")
 
 Dashboard also gives direct access to the client, active product's and completed order functions.
 *Dashboard can be accessed by all the the user with admin panel privileges eg. sales person, warehouse Manager,and admin*
