@@ -5,16 +5,21 @@ update, edit, or modify your website whenever needed. It is an essential require
 
 Website contains Admin Panel and Customer panel. Admin Panel is accessed by  Admin(Developer), Sales  person and  Warehouse Manager. These above user will have the different access rights according to their functions. And customer panel will be accessed by customers. Admin Panel will have following functions according to user access rights these function can be used for different purposes. Admin Panel contains all the information about the products in warehouse and active and ordered packages.
 
+---
+---
+
 ## **Navigation Section**
 
 In the left column, the navigation section of the Content Management System is allowing you to access the all view structure  available for user. And it also provide quick access to all menu.  
 
----
----
+
 
 ## **Content Section**
 
 In the right column, all the objects which you select via the navigation column will be displayed.
+
+---
+---
 
 ## **Language Selection**
 
@@ -37,6 +42,9 @@ As shown bellow
 * (For the future iteration language will have separate Button)
 
 ![Language](../images/laguage_view.PNG "Language" )
+
+---
+---
 
 ## **Dashboard**
 
@@ -141,7 +149,7 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 ---
 ---
 
-## **Package** 
+## **Package**
 
 * The  Procedure  to creating package, sending  package and approving package and placing the order is explained bellow with flowchart  
 
@@ -219,7 +227,7 @@ Admin Dashboard helps in grouping your products to a specific category or brand.
 ---
 ---
 
-## **Order Request** 
+## **Order Request**
 
 The Admin Panel not only helps you to manage and track all your orders but also check multiple products at once.Summary of the products ordered by your customer. Admin Panel helps you to directly create your draft orders.Keep a track of abandoned orders.
 
@@ -245,10 +253,10 @@ Also user can take action on the package such as edit the package delete the pac
 ### **Action**
 
 * Following action can be  taken on the order request
-  * **Download Image** ==> ![image](../images/images_logo.png) 
+  * **Download Image** ==> ![image](../images/images_logo.png)
     * Sales person can download images of the products
 
-  * **Export Excel** ==> ![export_excel](../images/export_logo.png) 
+  * **Export Excel** ==> ![export_excel](../images/export_logo.png)
     * Sales person can export the order details and download the details in excel format
   * **Edit** ==>![edit](../images/edit_logo.PNG)
     * Edit the package (add and remove products from the package) (same the supply number)
@@ -264,8 +272,60 @@ Also user can take action on the package such as edit the package delete the pac
 ---
 ---
 
+## **Warehouse**
+
+In the warehouse view Sales person can check all the Pending Carts in the warehouse. Also sales person can direct create order for the customer from here
+
+|![Warehouse](../images/Warehouse_view.PNG)|
+|:----:|
+|*Warehouse*|
+
+### **Create Order** 
+
+This option gives the sales person to create order directionally instead of creating package and waiting for client's approval. While creating order for  the customer sales person can either select the supply number and then select the products from that supply or Directly select the products from all the available products from warehouse. 
+ 
+  |![Warehouse](../images/Warehouse_view_2.PNG)|
+  |:---:|
+  | *Create Order* |
+
+---
+---
+
 ## **Right Management**
 
-* Need to add points
+* This view is Accessed only by admin.
+* Rights management is useful for adding and removing the access to the user Role (Admin, Sales, Warehouse Manager , Customer).  
+* Admin can create new Role for specific purpose with specific access restrictions. 
+* Admin Can Edit the existing Role and add or remove view access to the Role
 
 ![Right_Management](../images/Rights_managment_view.PNG "Order request")
+
+### **Add New Role**
+
+* Admin can create new Role and Provide access according to specification as shown bellow. 
+
+  |![Add_role](../images/Role_create.PNG "Create Role")|
+  |:----:|
+  | *Add New Role*|
+
+### **Edit**
+
+* Admin Can Edit the existing Roles In order to increase or decrease the accessibility of the Role. 
+* Bellow example for sales person Role and customer Role is give
+
+  |![Edit_Role](../images/Role_edite_VIew.svg "Edit Role")|
+  |:----:|
+  | *Edit Role*|
+
+---
+
+---
+
+## **Website Setting**
+
+* This View is accessed by admin 
+* Admin can control the version of the website
+* And most importantly Admin can control percent of the products(from selected supply) in package
+* And Admin can decide the nr of days for old products     
+
+![Website_Setting](../images/website_Setting.PNG "Website Setting")
