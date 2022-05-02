@@ -118,7 +118,7 @@ Input :
 
 * *Input Parameter*\
   * usr_name\
-    User Name\
+    User Name
     * Data Type : String  
 
 * *Returns*

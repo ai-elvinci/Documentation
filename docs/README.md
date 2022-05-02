@@ -18,7 +18,7 @@ Description of the project and company
 <p float="center">
 
 [<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>App API</em>](./pages/App_api.md)
-[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>Pallet App API</em>](./pages/App_api.md)
+[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>Grad API</em>](./pages/Grad_API.md)
 
 </p>
 
