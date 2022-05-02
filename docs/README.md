@@ -1,8 +1,8 @@
 # Documentation 
 
-Discription of the project and company 
+Description of the project and company 
 
-## Data Cleaning And  Recommendationn Systen 
+## Data Cleaning And  Recommendation System 
 
 <!--<img src='./images/dataclean.jpg' alt.../> -->
 
@@ -15,14 +15,21 @@ Discription of the project and company
 
 ## API
 
-## Flutter Documentaion
+<p float="center">
 
-## Website Documentation
+[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>App API</em>](./pages/App_api.md)
+[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>Pallet App API</em>](./pages/App_api.md)
+
+</p>
+
+## Flutter Documentation
+
+## **Website Documentation**
 
 <p float="center">
 
-[<img src="./images/elvinci_logo_1.png" width="170"  hspace="10" title="Website Documentation" /><em>Website Documentation</em>](./pages/website.md)
-[<img src="./images/elvinci_logo_1.png" width="170"  hspace="10" title="Website Documentation"/><em>Website Documentation</em>](./pages/website.md)
+[<img src="./images/elvinci_logo_1.png" width="170"  hspace="10" title="Website Documentation" /><em>Admin View Documentation</em>](./pages/website.md)
+[<img src="./images/elvinci_logo_1.png" width="170"  hspace="10" title="Website Documentation"/><em>Customer View Documentation</em>](./pages/website_Customer.md)
  
 </p>
 

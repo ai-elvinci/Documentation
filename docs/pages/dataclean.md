@@ -4,7 +4,7 @@ This repository is used to clean data from warehouse.
 
 > This script is used to clean data exported from the JTL
 
-Export data fram JTL as given bellow
+Export data from JTL as given bellow
 
 * Data exported from JTL
 
@@ -54,8 +54,8 @@ Export data fram JTL as given bellow
 
 #### artikel_number_refine
 
-  This funtion returns 9 digit lage nr starting with 1 
-  frist clear all the article number whose length is not 9
+  This function returns 9 digit lager nr starting with 1 
+  first clear all the article number whose length is not 9
 
  Args:
 
@@ -65,7 +65,7 @@ Returns:
 
 >DataFram : Refined "Artikelnummer"
 
-Useage 
+Usage 
 
 ~~~python 
 # product data with refined Artikel Nummenr 
@@ -89,7 +89,7 @@ Returns:
 
 >DataFrame: Returens with Bestellnummer Added column  
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added Bestellnummer   
@@ -109,7 +109,7 @@ Returns:
 
 >DataFrame: Returens with Bestellnummer Added column  
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added Bestellnummer   
@@ -130,7 +130,7 @@ Returns:
 
 >DataFrame: Returens with  orderdate ["Bestell Date"] added column  
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added order date    
@@ -150,7 +150,7 @@ Returns:
 
 >DataFrame: Returens with  orderdate ["Bestell Date"] added column  
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added order date    
@@ -170,7 +170,7 @@ Returns:
 
 >DataFrame: Returens with  added Kunden nr  ["kunden-nr"]
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added Kunden nr    
@@ -194,7 +194,7 @@ Returns:
 
 >DataFrame: Returens with  added plomben nr  ["PlombenNr"]
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added Plumben nummer     
@@ -214,7 +214,7 @@ Returns:
 
 >DataFrame: Returens with adde missing plomben nr ["PlombenNr"]
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added Plumben nummer     
@@ -235,7 +235,7 @@ Returns:
 
 >DataFrame: Returens with  added plomben date ["PlombenDate"]
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added Plumben Date    
@@ -258,7 +258,7 @@ Returns:
 
 >DataFrame: Returens with  added price for the articles  ["Onlineprice"]
 
-Useage:
+Usage:
 
 ~~~python
 # product data with Added price of the products     
@@ -282,7 +282,7 @@ Returns:
 
 >DataFrame: returens with refined  ['Grade']
 
-Useage 
+Usage 
 
 ~~~python 
 # product data with refined Grade  
@@ -304,7 +304,7 @@ Returns:
 
 >DataFrame: Returens with refined  ['Grade']
 
-Useage:
+Usage:
 
 ~~~python
 # product data with refined Grade  
@@ -327,7 +327,7 @@ Args:
 
   > DataFrame : returns with  Column [Group]
 
-Useage 
+Usage 
 
 ~~~python 
 # product data with refined group or category 
@@ -350,7 +350,7 @@ Args:
 
   > DataFrame : returns with  Column [NoOfDayProductwasInWearhouse]
 
-Useage 
+Usage 
 
 ~~~python 
 # product data 

@@ -244,9 +244,10 @@ After package is sent to the customer, customer will select the products accordi
   * **Approved :**
   Order has been approved by the sales person and System will send automatic response to client
   * **Awaiting Approval :**
-    * **meaning and Action needs to be taken**
+    * Customer has requested to place order and sales person has changed (added new products or removed products) and re-sent package to customer and waiting for the customer's approval(or request to place the order again) 
   * **Approved Warehouse :**
-    * **Meaning and**
+    * Order has directly created (instead of creating package and sending to client for approval) from the Warehouse view.
+    * If the sales person places order from the warehouse view neither customer nor the salesperson can change the order.  
 
 Also user can take action on the package such as edit the package delete the package and export the package in excel for mat for the further.
 
