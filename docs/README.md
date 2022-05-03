@@ -13,12 +13,19 @@ Description of the project and company
  
 </p>
 
-## API
+## **API**
 
 <p float="center">
 
 [<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>App API</em>](./pages/App_api.md)
 [<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>Grad API</em>](./pages/Grad_API.md)
+
+</p>
+
+<p float="center">
+
+[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="Recommender API"/><em> Recommender API</em>](./pages/recommender_API.md)
+[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="Fast Moving API" /><em>Fast Moving API</em>](./pages/fast_moving_API.md)
 
 </p>
 
