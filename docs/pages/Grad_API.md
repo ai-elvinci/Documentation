@@ -1,4 +1,4 @@
-# **Grad API**
+# **Grad predict API**
 
 Grade_Classification.py:
 
@@ -51,7 +51,7 @@ app.py:
 - 1 = B
 - 2 = C 
 
-## **Predict**
+## **Predict Grad**
 
 ~~~python
 # Route
@@ -65,8 +65,39 @@ Input : Scaling list.
 ~~~python
 #Input Object
 {
+  "category" : "3_Kühlgeräte", "usage" : "gebraucht" , "question_answer_list" : {"0":"No","10":"No","11":"No","12":"No","13":"Yes","8":"Yes","9":"Yes"},  "Scaling_list" : {"17":6}
 
 }
 ~~~
 
-###
+### **Predict Grade Attribute**
+
+- *Input Parameter*
+  - "category"\
+  Category of the product.
+    - Data type : String 
+
+  - "usage"\
+  Usage  of the product.
+    - Data type : String
+
+  - "question_answer_list"\
+  Question Answer list from the app.
+    - Data type : Dictionary
+
+  - "Scaling_list"\
+  Scaling list from app.
+    - Data type : Dictionary
+
+- *Return Parameter*
+  - "Predicted Grade"\
+  Predicted grad from algorithm.
+    - Data type : String.
+
+~~~python
+# return Object
+{
+    "Predicted Grade": "B",
+    "success": true
+}
+~~~

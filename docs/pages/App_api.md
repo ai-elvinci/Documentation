@@ -21,8 +21,16 @@ Input :  { "id": "LagerID", }
 * *Input*\
     Parameters to Fetch the products as
 
-  * id (datatype: string)
-    * column name in database : LagerNumber  
+  * id 
+    * column name in database : Article number
+    * datatype: string  
+ 
+ ~~~python
+# Input Object
+{ 
+   "id" : "82351048"
+}   
+ ~~~
 
 * *Return*\
     Scan Product will return following attributes. All the returned object attribute  will be string datatype.  
@@ -37,19 +45,26 @@ Input :  { "id": "LagerID", }
   Supply Number of the Product  
 
   * "ProductGroup"\
-  Product category 
-
+  Product category
 
   * "BrandName"\
-  Brand Name in short. 
+  Brand Name in short.
 
+  * Weight\
+  Weight of the product.
+    * Data type : String
 
 
 ~~~python 
 # Object of the scan product
 {
-    "id" : "1231111321" 
-    "ArticleNumber" : "28775"
+  "ArticleNumber": "82351048", "BrandName": "GOR", 
+  "Categories": "3_K\u00fchlger\u00e4te", 
+  "Description": "K\u00fchl/Gefrierkombination NK 7990 DC", 
+   "LagerNumber": null, 
+   "ProductGroup": "K\u00fchl/Gefrierkombination",
+  "SupplyID": null, 
+  "Weight": "70"
 }
 ~~~
 
@@ -170,7 +185,7 @@ Input :
 # output Object 
 {
      "success": True,
-     "message": f"Username: v.jambuti is deleted successfully."
+     "message": "Username: v.jambuti is deleted successfully."
 }
 ~~~
 
