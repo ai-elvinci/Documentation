@@ -1,4 +1,4 @@
-# **Grad predict API**
+# **Grade predict API**
 
 Grade_Classification.py:
 
@@ -51,7 +51,7 @@ app.py:
 - 1 = B
 - 2 = C 
 
-## **Predict Grad**
+## **Predict Grade**
 
 ~~~python
 # Route
@@ -91,7 +91,7 @@ Input : Scaling list.
 
 - *Return Parameter*
   - "Predicted Grade"\
-  Predicted grad from algorithm.
+  Predicted grade from algorithm.
     - Data type : String.
 
 ~~~python

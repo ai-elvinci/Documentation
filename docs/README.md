@@ -13,12 +13,23 @@ Description of the project and company
  
 </p>
 
+## Fast moving products Documentation   
+
+</p>
+
+<p float="center">
+
+[<img src="./images/code.png" width="170"  hspace="10" title="Moving_product"/><em> Moving Product</em>](./pages/Moving_product_code_docs.md)
+[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="Fast Moving API" /><em>Moving Product API</em>](./pages/fast_moving_API.md)
+
+</p>
+
 ## **API**
 
 <p float="center">
 
 [<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>App API</em>](./pages/App_api.md)
-[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="App Apis" /><em>Grad API</em>](./pages/Grad_API.md)
+[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="Grade Apis" /><em>Grade API</em>](./pages/Grad_API.md)
 
 </p>
 

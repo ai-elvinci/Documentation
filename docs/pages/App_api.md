@@ -292,7 +292,7 @@ following input  and return attribute of the get product description.
     * Data type : Dictionary
 
   * final_grade\
-  Final Grad  of the product.
+  Final Grade  of the product.
     * Data type : String
 
   * created_by_usr\
@@ -408,7 +408,7 @@ Input :
     * Data type : Dictionary 
 
   * finalGrade\
-  Final Grad  of the product.
+  Final Grade  of the product.
     * Data type : String
   
   * articleNumber\
