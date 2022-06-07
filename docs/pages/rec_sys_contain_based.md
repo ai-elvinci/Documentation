@@ -4,18 +4,19 @@ Content-Based Filtering Recommender: As its name suggest, this type of recommend
 
 ## **Content_based_for_top_Customer.py**
 
-*ask ahmed about  this functio  n* 
 
 ###
 
 #### Top_Customer_Recommendation
 
+This function will fetch data from the SQL_preprocess file for Recommendation_Preprocess it convert preprocess data into frequency count for the recommendation  prediction.
+
 Args: 
 > None 
 
 Returns: 
->content_df1[DataFrame]:\
->X_test[DataFrame]
+>content_df1[DataFrame]:training dataFrame for the recommender algorithm data with term and document frequency\
+>X_test[DataFrame]: test data with term and document frequency
 
 Usage:
 
