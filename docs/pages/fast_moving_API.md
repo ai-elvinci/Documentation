@@ -30,6 +30,11 @@ Input :
   * "Moving_Condition"\
   This explain product demand. Depending upon the condition as explained bellow.
     * Data type : String
+    >"Best seller" : If product is sold within 7 days\
+    >"Standard" : If the product is sold within 8 to 14 days\
+    >"Below Standard" : If the product is sold within 15 to 30 days\
+    >"Slow mover" :If the product is sold after more than 31 day\
+    > "Not Rated" : 
   * "quantity"\
   Quantity of the product in package 
     * Data type : int

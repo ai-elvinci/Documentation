@@ -59,10 +59,10 @@ Input :  { "id": "LagerID", }
 # Object of the scan product
 {
   "ArticleNumber": "82351048", "BrandName": "GOR", 
-  "Categories": "3_K\u00fchlger\u00e4te", 
-  "Description": "K\u00fchl/Gefrierkombination NK 7990 DC", 
+  "Categories": "3_Kühlgeräte", 
+  "Description": "Fridge freezer combination", 
    "LagerNumber": null, 
-   "ProductGroup": "K\u00fchl/Gefrierkombination",
+   "ProductGroup": "Kühl/Gefrierkombination",
   "SupplyID": null, 
   "Weight": "70"
 }
@@ -325,8 +325,7 @@ following input  and return attribute of the get product description.
 ~~~python
 # Return Object
 {
-"lager_number" : "" , "article_number": "", "product_group" : "", "brand_name" : "", "description": "",  "question_answer_list" : "", "scaling_list" : "", "final_grade": "", "created_by_usr" : "", "is_visible": "", 
-"remarks": "", "supply_id": "", "usage": "", "image_list": "", "datetime_uploaded": ""
+"lager_number" : "116224530" , "article_number": "82351048", "product_group" : "Kühl/Gefrierkombination", "brand_name" : "GOR", "description": "Fridge freezer combination",  "question_answer_list" : {"0":"No","10":"No","11":"No","12":"No","13":"Yes","8":"Yes","9":"Yes"}, "scaling_list" : {"17":6}, "final_grade": "B", "created_by_usr" : "2", "is_visible": "1",  "remarks": "",  "supply_id": "8808755", "usage": "gebraucht", "image_list":[0], "datetime_uploaded": 2021-07-03 15:48:29
 }
 ~~~
 
@@ -380,9 +379,7 @@ Input :
 
 ~~~python
 {
-    "lagerNumber": "", "productGroup" : "", "questionAnswerList" : "", "scalingList" : "", "finalGrade" : "",  
-    "articleNumber" : "", "description" : "", "brandName" : "", "usrID" : "", "isActive": "", "SupplyID" : "",
-    "Remarks" : "", "usage" : "", "imageNumberList" : ""
+    "lager_number" : "116224530" , "article_number": "82351048", "product_group" : "Kühl/Gefrierkombination", "brand_name" : "GOR", "description": "Fridge freezer combination",  "question_answer_list" : {"0":"No","10":"No","11":"No","12":"No","13":"Yes","8":"Yes","9":"Yes"}, "scaling_list" : {"17":6}, "final_grade": "B", "created_by_usr" : "2", "is_visible": "1",  "remarks": "",  "supply_id": "8808755", "usage": "gebraucht", "image_list":[0], "datetime_uploaded": 2021-07-03 15:48:29
 }
 ~~~
 

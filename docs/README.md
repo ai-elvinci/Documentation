@@ -24,6 +24,17 @@ Description of the project and company
 
 </p>
 
+## **Recommender System**
+
+</p>
+
+<p float="center">
+
+[<img src="./images/recsys.png" width="170"  hspace="5" title="Rec System"/><em> Content Based Recommender System</em>](./pages/rec_sys_contain_based.md)
+[<img src="./images/api_logo.jpg" width="170"  hspace="10" title="Fast Moving API" /><em>Rec System API</em>](./pages/recommender_API.md)
+
+</p>
+
 ## **API**
 
 <p float="center">
